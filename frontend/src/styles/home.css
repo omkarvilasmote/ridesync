@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgimg{
+    background-image: url("../assets/RideSync3.png");
+}
+
+@keyframes marquee {
+    0% {
+      transform: translateX(90%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-marquee {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+  }
